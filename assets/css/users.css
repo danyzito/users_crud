@@ -1,0 +1,227 @@
+html {
+  background-color: #ffffff;
+  }
+
+body {
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+   background-color: #cccccc;
+   padding: 50px;
+   }
+
+.app-title {
+  text-align: center;
+  color: #777;
+}
+
+.container {
+  margin: 20px auto;
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+
+* {
+   box-sizing: border-box;
+   }
+   
+   *:focus {
+      outline: none;
+   }
+
+.control{
+  float:right
+}
+
+mini {
+   margin: 20px auto;
+   width: 300px;
+}
+  .mini-screen {
+   background-color: #FFF;
+   padding: 20px;
+   border-radius: 5px
+   }
+      
+   .mini-form {
+   text-align: center;
+   }
+
+.add {
+    margin: 20px auto;
+    width: 300px;
+    }
+   .add-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px
+    }
+       
+    .add-form {
+    text-align: center;
+}
+
+   .control-group {
+   margin-bottom: 10px;
+   }
+
+   .control-group-float {
+    margin-bottom: 10px;
+    float: right;
+    }
+   .app-title {
+    text-align: center;
+    color: #777;
+    }
+
+  .menu{
+    text-align: right;
+    margin: 20px 0px 10px;
+    align-content: flex-end;
+    float: right;
+  }
+
+  .message{
+    text-align: right;
+    margin: 20px 0px 10px;
+    align-content: center;
+    color: red;
+
+  }
+
+
+
+   input {
+   text-align: left;
+   background-color: #d1dde0;
+   border: 2px solid transparent;
+   border-radius: 3px;
+   font-size: 16px;
+   font-weight: 200;
+   padding: 10px 0;
+   width: 250px;
+   transition: border .5s;
+   margin-bottom: 10px;
+   }
+   
+   input:focus {
+   border: 2px solid #3498DB;
+   box-shadow: none;
+   }
+   
+   .btn {
+     border: 2px solid transparent;
+     background: #3498DB;
+     color: #ffffff;
+     font-size: 16px;
+     line-height: 25px;
+     padding: 5px 0;
+     text-decoration: none;
+     text-shadow: none;
+     border-radius: 3px;
+     box-shadow: none;
+     transition: 0.25s;
+     display: block;
+     width: 120px;
+     margin: 0 auto;
+     text-align: center;
+     align-self: flex-end;
+   }
+   
+   .btn:hover {
+     background-color: #2980B9;
+   }
+   
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    float: center;
+  }
+  table tbody tr:nth-child(2n){
+    background: #d3d1d1;
+  }
+
+  table .email {
+    text-align: left;
+  }
+  table th {
+    font-size: 0.85em;
+    margin: .5em 0 .75em;
+    background-color: rgb(58, 94, 252);
+        letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+    font-size: 0.8em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 500px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ccc;
+      display: block;
+      margin-bottom: .625em;
+      font-size: 1em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ccc;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+     
+      content: attr(data-label);
+      float: center;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+ 
+  .image{
+    filter: grayscale(80%); 
+  }
+  .imagen:hover {
+    filter: grayscale(0%);
+  }
